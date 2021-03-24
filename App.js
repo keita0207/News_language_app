@@ -1,21 +1,31 @@
-import { StatusBar } from 'expo-status-bar';
-import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import * as React from 'react';
+import { NavigationContainer } from '@react-navigation/native';
+import  AuthStack  from './src/Navigator/Navigation'
+import {StatusBar} from 'react-native'
+
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
+    <NavigationContainer>
       <StatusBar style="auto" />
-    </View>
+      <AuthStack />
+    </NavigationContainer>
   );
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+
+// INSTALLED
+// yarn add @react-navigation/native
+// yarn add native-base --save
+// yarn add react-native-webview
+// yarn add react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context @react-native-community/masked-view
+// yarn add react-native-vector-icons
+// yarn add @react-navigation/bottom-tabs
+// yarn add @react-navigation/stack
+// yarn add react-native-swipe-image
+// yarn add react-native-country-picker-modal
+// yarn add react-native-modal-datetime-picker @react-native-community/datetimepicker
+// yarn add react-native-elements
+// yarn add react-native-floating-label-input
+// yarn add react-native-appearance
+// yarn add @react-navigation/drawer
