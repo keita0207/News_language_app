@@ -50,6 +50,7 @@
 API : News API
 
 # DB設計(写真を貼る)
+https://user-images.githubusercontent.com/61197804/118636527-bf64b300-b80f-11eb-86a9-0eb40aadad4e.png
 
 # 苦労した、苦労しているところ
 1. 画像のURL指定
