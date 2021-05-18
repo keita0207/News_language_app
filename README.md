@@ -4,9 +4,15 @@
 ニュース機能で勉強している言語やその国の文化等の知識を深め、チャット機能では実際に会話を始めることで、学んだことを実践出来るサービスをコンセプトとしました。
 １つのアプリ内で、インプットとアウトプットの両方を可能にし、語学を更に楽しく勉強できる様にしていることが特徴です。
 
-<img src="https://user-images.githubusercontent.com/61197804/118637835-2d5daa00-b811-11eb-9ab9-b8cd90d805c9.jpg" width="200px">
-<img src="https://user-images.githubusercontent.com/61197804/118637944-4b2b0f00-b811-11eb-9f87-cb83a49dc3d3.jpg" width="200px"> 
-<img src="https://user-images.githubusercontent.com/61197804/118637952-4cf4d280-b811-11eb-944f-84eb27c0c76a.jpg" width="200px">
+
+<table>
+<tr>
+<td><img src="https://user-images.githubusercontent.com/61197804/118637835-2d5daa00-b811-11eb-9ab9-b8cd90d805c9.jpg" width="200px"></td>
+<td><img src="https://user-images.githubusercontent.com/61197804/118637944-4b2b0f00-b811-11eb-9f87-cb83a49dc3d3.jpg" width="200px"></td>
+<td><img src="https://user-images.githubusercontent.com/61197804/118637952-4cf4d280-b811-11eb-944f-84eb27c0c76a.jpg" width="200px"></td>
+</tr>
+</table>
+
 
 
 # 対象ユーザー
