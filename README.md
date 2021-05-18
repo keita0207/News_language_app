@@ -7,9 +7,12 @@
 
 <table>
 <tr>
-<td><img src="https://user-images.githubusercontent.com/61197804/118637835-2d5daa00-b811-11eb-9ab9-b8cd90d805c9.jpg" width="200px"></td>
-<td><img src="https://user-images.githubusercontent.com/61197804/118637944-4b2b0f00-b811-11eb-9f87-cb83a49dc3d3.jpg" width="200px"></td>
-<td><img src="https://user-images.githubusercontent.com/61197804/118637952-4cf4d280-b811-11eb-944f-84eb27c0c76a.jpg" width="200px"></td>
+<td><img src="https://user-images.githubusercontent.com/61197804/118637835-2d5daa00-b811-11eb-9ab9-b8cd90d805c9.jpg" 
+         width="200px"　margin="20px"></td>
+<td><img src="https://user-images.githubusercontent.com/61197804/118637944-4b2b0f00-b811-11eb-9f87-cb83a49dc3d3.jpg"
+         width="200px" margin="20px"></td>
+<td><img src="https://user-images.githubusercontent.com/61197804/118637952-4cf4d280-b811-11eb-944f-84eb27c0c76a.jpg"
+         width="200px" margin="20px"></td>
 </tr>
 </table>
 
