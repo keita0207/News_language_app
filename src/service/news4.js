@@ -1,9 +1,9 @@
-import { articles_url,language,_api_key,quota} from '../config/rest_config'
+import { articles_url,languageFour,_api_key,quota} from '../config/rest_config'
 
 export  async function getArticles(){
 
     try {
-        let articles = await fetch(`${articles_url}?language=${language}`, {
+        let articles = await fetch(`${articles_url}?language=${languageFour}`, {
             headers: {
                 'X-API-KEY': _api_key
             }

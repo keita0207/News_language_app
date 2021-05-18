@@ -17,6 +17,11 @@
     "android": {
       "package": "com.bpro"
     },
-    "web": {}
+    "web": {
+
+    },
+      "facebookAppId": "746286742966258",
+      "facebookDisplayName": "bpro",
+      "facebookScheme": "fb746286742966258"
   }
 }

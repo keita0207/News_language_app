@@ -1,31 +1,27 @@
-import * as React from 'react';
-import { NavigationContainer } from '@react-navigation/native';
-import  AuthStack  from './src/Navigator/Navigation'
-import {StatusBar} from 'react-native'
+import  React,{ Component } from 'react';
+import { DarkTheme } from '@react-navigation/native';
+import { StatusBar } from 'react-native'
+//import {Provider as PaperProvider, DarkTheme as PaperDarkTheme} from 'react-native-paper'
+import { Provider } from 'react-redux'
+import  reducer from './src/redux/reducers/index'
+import thunkMiddleware from 'redux-thunk'
+import { createStore, applyMiddleware } from 'redux'
 
+import SwitchContainer from './src/Navigator/LoginNavigator'
 
-export default function App() {
-  return (
-    <NavigationContainer>
-      <StatusBar style="auto" />
-      <AuthStack />
-    </NavigationContainer>
-  );
+const middleware = applyMiddleware(thunkMiddleware)
+const store = createStore(reducer,middleware)
+
+//仮のデータ。reduxをudemyの講座と同じ様に設定する。
+export class App extends Component{
+  render(){
+    return(
+      <Provider store={store}>
+        <StatusBar barStyle="light-content" />
+        <SwitchContainer />
+      </Provider>
+    )
+  }
 }
 
-
-// INSTALLED
-// yarn add @react-navigation/native
-// yarn add native-base --save
-// yarn add react-native-webview
-// yarn add react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context @react-native-community/masked-view
-// yarn add react-native-vector-icons
-// yarn add @react-navigation/bottom-tabs
-// yarn add @react-navigation/stack
-// yarn add react-native-swipe-image
-// yarn add react-native-country-picker-modal
-// yarn add react-native-modal-datetime-picker @react-native-community/datetimepicker
-// yarn add react-native-elements
-// yarn add react-native-floating-label-input
-// yarn add react-native-appearance
-// yarn add @react-navigation/drawer
+export default App
